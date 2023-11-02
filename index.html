@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sukoon</title>
+  <link rel="icon" href="/images/favicon-enhanced.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="/images/favicon-enhanced.png" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="stylesheet" text="text/CSS"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" text="text/CSS"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<style>
+  html {
+    scroll-behavior: smooth;
+
+  }
+
+  .hidden {
+    visibility: hidden;
+  }
+
+  .back-top-wrap {
+    position: fixed;
+    bottom: 5rem;
+    right: 1rem;
+    background-color: #80F7D1;
+    padding: 1rem 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    z-index: 100;
+  }
+
+  .back-top-wrap:hover {
+    background-color: #00a2ff;
+    color: #80F7D1;
+  }
+
+  .back-top-wrap:hover .fas.fa-arrow-up {
+    color: white;
+  }
+
+  .fas.fa-arrow-up {
+    color: #00488F;
+    transition: 0.3s ease-in-out;
+  }
+</style>
+
+<body onload="myFunction()">
+  <div class="loading-wrapper">
+    <img src="./logo.png" id="loading" />
+  </div>
+
+  <!-- Back to top button -->
+  <div id="back-top-div" class="back-top-wrap">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+  <header>
+    <nav class="nav" id="nav">
+      <div>
+        <a class="navbar-brand" href="#!"> <img src="logo.png" alt="Logo" class="logo" /></a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <ul class="links" id="navmenu">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="/about.html">TEAM</a></li>
+          <li><a href="#services">SERVICES </a></li>
+          <li><a href="contact.html">CONTACT US </a></li>
+          <li><a href="chatbot.html">CHATBOT </a></li>
+        </ul>
+      </div>
+      <button class="login-button"><a href="/signin.html">SignUp / Login</a></button>
+      <div class="hamburger" id="ham">
+        <i class="cancel fa-solid fa-xmark"></i>
+
+        <svg class="burger" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z">
+          </path>
+        </svg>
+      </div>
+    </nav>
+    <div class="menu" id="menu">
+      <ul class="menu-link">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES </a></li>
+        <li><a href="html/contact.html">CONTACT US </a></li>
+      </ul>
+    </div>
+    <div class="content">
+      <h1>Welcome to EMOSPHERE</h1>
+      <div class="container">
+        <h3><span class="auto-type" style="font-size: 40px;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></a></span></h3>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["The one-step solution to get relief from your stress. Live a stress-free life!"],
+          typeSpeed: 50,
+          backspeed: 50,
+          loop: true
+        })
+      </script>
+      <a href="#services" class="rainbow-button" alt="Explore"></a>
+    </div>
+
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h1 data-aos="flip-right">About Us</h1>
+    <div class="max-width">
+      <div data-aos="zoom-in" class="photo"><img src="./images/still-ca3a6208f2576d39c19d0ae9b63f43fd.png" alt="" height="300px" width="330px"></div>
+      <div class="about-content">
+        <p data-aos="fade-left" class="text-1"> 
+            We are a team of AI researchers and developers building a <span>video conferencing AI friend</span> to provide emotional support and companionship to people who are feeling low, sad, or depressed.. </p>
+        <p data-aos="fade-left" class="text-3">We hope that everyone can live a <span>stress free life </span>with the
+          help of<span> emosphere.</span></p>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <!-- Faq section -->
+  <section class="faq">
+    <div class="faq_heading">
+      <h1>Frequently Asked Questions</h1>
+    </div>
+    <div class="accordion">
+      <div class="accordion__item">
+        <button class="accordion__btn">
+
+          <span class="accordion__caption"><i class="far fa-lightbulb"></i>What is a video conferencing AI friend?</span>
+          <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+        </button>
+
+        <div class="accordion__content">
+          <p>A video conferencing AI friend is a computer program that can simulate a human companion in a video call. It can be used to provide emotional support and companionship to people who are feeling low, sad, or depressed.</p>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <button class="accordion__btn">
+
+          <span class="accordion__caption"><i class="far fa-lightbulb"></i>What are the benefits of using a video conferencing AI friend for emotional support?
+          </span>
+          <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+        </button>
+
+        <div class="accordion__content">
+          <p>Video conferencing AI friends can offer a number of benefits for people who are feeling low, sad, or depressed like:
+            <br>
+            1. Provide companionship and emotional support
+            <br>
+            2. Help people to feel less lonely and isolated
+            <br>
+            3. Offer a non-judgmental listening ear
+            <br>
+            4. Help people to process their emotions
+            <br>
+            5. Provide tasks and activities to help people improve their mood and well-being
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <button class="accordion__btn">
+
+          <span class="accordion__caption"><i class="far fa-lightbulb"></i>How do I use a video conferencing AI friend for emotional support?</span>
+          <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+        </button>
+
+        <div class="accordion__content">
+          <p> To use a video conferencing AI friend for emotional support, you simply need to start a video call with it. You can then talk to it about whatever you like, and it will listen and respond in a supportive and helpful way</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <button class="accordion__btn">
+
+          <span class="accordion__caption"><i class="far fa-lightbulb"></i>Are video conferencing AI friends safe to use?</span>
+          <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+        </button>
+
+        <div class="accordion__content">
+          <p>Video conferencing AI friends are generally safe to use, but it is important to choose one from a reputable source. 
+            You should also be careful about what information you share with your AI friend, 
+            and you should avoid sharing any personal information that you would not be comfortable sharing with a human friend.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion__item">
+        <button class="accordion__btn">
+
+          <span class="accordion__caption"><i class="far fa-lightbulb"></i>Can video conferencing AI friends replace human friends?</span>
+          <span class="accordion__icon"><i class="fa fa-plus"></i></span>
+        </button>
+
+        <div class="accordion__content">
+          <p>Video conferencing AI friends cannot completely replace human friends, 
+            but they can be a helpful addition to your social network. 
+            They can provide companionship and support when you need it, and they can help you to cope with difficult times.
+            However, it is important to maintain relationships with human friends as well, as they can offer unique benefits that AI friends cannot.</p>
+        </div>
+      </div>
+
+      
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- footer start -->
+  <footer>
+    <div class="footer-container">
+      <!--logo and info column-->
+      <div class="col">
+        <!--logo insert-->
+        <img src="logo.png" alt="logo" class="footlogo" />
+        <div class="footercontent">
+          <h2 class="footerheading">Emosphere</h2>
+          <p class="footerpara">go stress free</p>
+        </div>
+      </div>
+
+      <!--ADDRESS COLUMN-->
+
+      <div class="footer-side-col">
+        <div class="col">
+          <h3>
+            ADDRESS
+            <div class="underline"><span></span></div>
+          </h3>
+          <p>Karnataka, India</p>
+          <p class="email-id"><a href="mailto:sukoon665@gmail.com">emosphere69@gmail.com</a></p>
+        </div>
+        <!--OUR SERVICES COLUMN-->
+        <div class="col">
+          <h3>
+            SERVICES
+            <div class="underline"><span></span></div>
+          </h3>
+          <ul>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/audiotherapy">Audio Therapy</a>
+            </li>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/readingtherapy">Reading Therapy</a>
+            </li>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/yogatherapy.html">Yoga Therapy</a>
+            </li>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/laughTherapy.html">Laughing Therapy</a>
+            </li>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/talkingtherapy">Talking Therapy</a>
+            </li>
+            <li>
+              <a href="https://www.practo.com/counselling-psychology">Consult a Doctor</a>
+            </li>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/childTherapy">Child Therapy</a>
+            </li>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/spirituality">Spiritual Therapy</a>
+            </li>
+            <li>
+              <a href="https://sukoon-stress-free.netlify.app/html/specialTherapy">Special Therapy</a>
+            </li>
+          </ul>
+        </div>
+        <!--CONTACTS COLUMN-->
+        <div class="col">
+          <h3>
+            Help
+            <div class="underline"><span></span></div>
+          </h3>
+          <a href="#">Contact us</a>
+          <div class="social-menu">
+            <ul>
+              <a href="https://twitter.com/sukoon665" target="_blank">
+                <li id="social-twitter"><i class="fab fa-2x fa-twitter"></i></li>
+              </a>
+              <a href="https://github.com/Susmita-Dey/Sukoon" target="_blank">
+                <li id="social-github"><i class="fab fa-2x fa-github"></i></li>
+              </a>
+              <a href="https://www.linkedin.com/in/sukoon-web-820705238" target="_blank">
+                <li id="social-linkedin"><i class="fab fa-2x fa-linkedin-in"></i></li>
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script>
+
+    let preloader = document.querySelector(".loading-wrapper");
+    function myFunction() {
+      preloader.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+    let navbar = document.querySelector("#nav");
+    let navmenu = document.querySelector("#navmenu");
+
+    window.onscroll = function () {
+      if (window.pageYOffset >= navmenu.offsetTop) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    };
+
+    window.onscroll = () => {
+      if (window.scrollY > 100) {
+        navbar.classList.add('nav-active');
+      } else {
+        navbar.classList.remove('nav-active');
+      }
+    };
+  </script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./serviceworker.js')
+          .then((reg) => console.log('Success', reg.scope))
+          .catch((err) => console.log('Error', err))
+      })
+    }
+  </script>
+  <script src="js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
