@@ -1,0 +1,161 @@
+/* Global styles */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Grotesk", sans-serif;
+    text-decoration: none;
+  }
+  
+  /* Team section */
+  
+  /* Team section */
+
+.team {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(#281c3e, #0f051d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .team-content {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, auto));
+    align-items: center;
+    gap: 0rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  
+  .team-content img {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .team-content .box {
+    padding: 16px;
+    background: #1b1229;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    transition: all 0.38s ease;
+    margin: 0 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .team-content .box h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 18px;
+    text-align:center;
+  }
+  
+  .team-content .box h5 {
+    font-size:15px;
+    font-weight: 600;
+    color: #b7b4bb;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  
+  
+  /* Center section */
+  
+  .center {
+    text-align: center;
+  }
+  
+  .center h1 {
+    color: #fff;
+    font-size: 4rem;
+  }
+  
+  /* Box section */
+  
+  .box {
+    padding: 16px;
+    background: #1b1229;
+    border-radius: 15px;
+    transition: all 0.38s ease;
+    text-align: center;
+  }
+  
+  .box h3 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 18px;
+  }
+  
+  .box h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #b7b4bb;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  
+  /* Icons section */
+  
+  .icons i {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 8px;
+    transition: all 0.38s ease;
+  }
+  
+  .icons i:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Hover effects */
+  
+  .box:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 1240px) {
+    .team {
+      width: 100%;
+      height: auto;
+      padding: 90px 2%;
+    }
+  
+    .center h1 {
+      font-size: 3.2rem;
+    }
+  }
+  
+  /* Navigation bar */
+  
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-logo {
+    width: 80px;
+  }
+  
