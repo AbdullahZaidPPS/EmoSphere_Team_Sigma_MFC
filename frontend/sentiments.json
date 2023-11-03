@@ -1,0 +1,109 @@
+{
+    "intents": [
+        {
+            "tag": "joy",
+            "response": [
+                "Your happiness is so catchy!",
+                "Man, I'm vibin' with your joy!",
+                "Life's really hooking you up, huh?",
+                "Keep ridin' that positivity wave!",
+                "Isn't joy like the coolest thing?",
+                "Your happiness totally lights things up.",
+                "Haha, laughter's like magic, right?",
+                "Seriously, your energy's contagious!",
+                "Let's toast to even more good times!",
+                "Dude, your happiness is hella inspiring!"
+            ]
+        },
+        {
+            "tag": "anger",
+            "response": [
+                "Dude, take a deep breath and chill.",
+                "Whoa, calm down before you blow a fuse!",
+                "I feel you, it's a real head-scratcher.",
+                "Ugh, people can be so annoying sometimes.",
+                "Time to put on some calming music, maybe?",
+                "Hey, don't let this ruin your vibe.",
+                "Just remember, it's not worth the stress.",
+                "Let's grab a snack and vent it out.",
+                "Feel like punching a pillow? I get it.",
+                "Laugh it off anger's not worth it."
+            ]
+        },
+        {
+            "tag": "sadness",
+            "response": [
+                "I feel you, rough days happen.",
+                "Sending you virtual hugs right now.",
+                "Let's binge-watch something funny, maybe?",
+                "Chocolate's the answer, always helps a bit.",
+                "Got a listening ear if you need to vent.",
+                "Sometimes a good cry does wonders, seriously.",
+                "Remember, this feeling won't last forever.",
+                "Take it easy and treat yourself kindly.",
+                "We all have those 'meh' days, trust me.",
+                "Lean on friends when life gets heavy."
+            ]
+        },
+        {
+            "tag": "surprise",
+            "response": [
+                "Wow, that's unexpected!",
+                "I didn't see that coming!",
+                "What a pleasant surprise!",
+                "You've left me pleasantly surprised!",
+                "Color me surprised!",
+                "I'm pleasantly taken aback!",
+                "That's a curveball I didn't expect!",
+                "Well, isn't this a delightful turn of events?",
+                "Surprises like these make life interesting!",
+                "You've just added a spark of excitement to my day!"
+            ]
+        },
+        {
+            "tag": "neutral",
+            "response": [
+                "Totally get that, life's like that sometimes.",
+                "Ain't every day an adventure, right?",
+                "Yep, just another day in the life.",
+                "Chillin' sounds like a good plan right now.",
+                "Sometimes the calm is exactly what we need.",
+                "Same here, just rollin' with it.",
+                "Guess we're in the same boat, huh?",
+                "Every day can't be wild and crazy.",
+                "Embracing the normalcy, it's kinda nice.",
+                "Here's to the beauty of the ordinary!"
+            ]
+        },
+        {
+            "tag": "disgust",
+            "response": [
+                "Yikes, that's really gross!",
+                "I can't even, that's so disgusting.",
+                "Grossed out to the max!",
+                "Eww, I need to shake off that image!",
+                "My stomach turned just thinking about it!",
+                "Disgust levels off the charts!",
+                "I need to cleanse my mental palate after that.",
+                "Let's move on quickly from that grossness!",
+                "Disgust vibes, I'm with you on this one!",
+                "Well, that's an image I won't forget anytime soon."
+            ]
+        },
+        {
+            "tag": "fear",
+            "response": [
+                "Take a deep breath, I'm here with you.",
+                "Fear can be overwhelming, but you're not alone.",
+                "I understand, fear can be paralyzing at times.",
+                "Let's face that fear together, step by step.",
+                "Remember, courage is not the absence of fear.",
+                "Fear is a natural response, but you can conquer it.",
+                "You're stronger than your fears, believe it.",
+                "Facing your fears is a brave thing to do.",
+                "Fear is just a feeling; it can't control you.",
+                "I'm here to support you through any fear you have."
+            ]
+        }
+    ]
+}
