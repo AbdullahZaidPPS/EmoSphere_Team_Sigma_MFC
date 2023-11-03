@@ -2,9 +2,8 @@ from fer import FER
 from gtts import gTTS 
 import os
 import cv2
-from pydub import AudioSegment
-from pydub.playback import play
-
+import pygame
+import tempfile
 
 
 emotion_model = FER()
@@ -66,5 +65,17 @@ print("Final Emotion:", final_emotion)
 
 suggestion = emotion_suggestions.get(final_emotion, "No specific suggestion available.")
 print("Suggestion:", suggestion)
+
+with tempfile.NamedTemporaryFile(suffix=".mp3", delete=False) as temp_audio_file:
+    tts = gTTS(text=suggestion, lang='en')
+    tts.save(temp_audio_file.name)
+
+pygame.mixer.init()
+
+pygame.mixer.music.load(temp_audio_file.name)
+pygame.mixer.music.play()
+
+while pygame.mixer.music.get_busy():
+    continue
 
 
